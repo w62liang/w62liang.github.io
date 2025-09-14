@@ -1,0 +1,201 @@
+/* 背景：纸张纹理 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Hiragino Sans", "Microsoft YaHei", sans-serif;
+  background: #f9f9f9 url("https://www.transparenttextures.com/patterns/natural-paper.png") repeat;
+  color: #222;
+}
+
+/* 顶部横幅图 */
+#title {
+  width: 728px;
+  height: 247px; /* 根据 background.png 高度调整 */
+  margin: auto;
+  background: url("images/soseki.jpg") no-repeat center center;
+  background-size: cover;
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
+}
+
+/* 横幅下的导航条 */
+#navbar {
+  width: 728px;
+  margin: auto;
+  background: #e0eafc;
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #999;
+  text-align: center;
+}
+#navbar a {
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: dimgray;
+  font-weight: bold;
+}
+#navbar a:hover {
+  color: orange;
+}
+
+
+/* 标题区（图下方） */
+#title-text {
+  width: 730px;
+  margin: auto;
+  background: #fff;
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+.site_title {
+  font-family: "Courier New", "ＭＳ ゴシック", "Osaka‐等幅";
+  font-size: 28px;
+  font-weight: bold;
+  color: dimgray;
+}
+.description {
+  font-size: 14px;
+  color: dimgray;
+  font-weight: bolder;
+  margin-top: 4px;
+}
+
+/* 主体容器 */
+#body {
+  width: 728px;
+  margin: auto;
+  background: #fff;
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #666;
+  overflow: hidden;
+}
+
+/* 左正文 */
+#contents {
+  float: left;
+  width: 550px;
+  border-right: 1px solid #ccc;
+}
+.entry {
+  margin-right: 30px;
+  padding: 10px 20px;
+}
+.entry_date {
+  font-size: 14px;
+  color: dimgray;
+  margin-bottom: 5px;
+}
+.entry_title {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #666;
+  border-bottom: 1px dotted #999;
+  margin-bottom: 10px;
+}
+.entry_body {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #222;
+}
+
+/* 右侧栏 */
+#side {
+  margin-left: 550px;
+  background: #fafafa;
+  min-height: 100%;
+  padding: 10px;
+}
+.linkblock {
+  margin: 0 0 30px 0;
+}
+.linktitle {
+  background: #e0eafc;
+  border-bottom: 1px solid #999;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+.linktext {
+  font-size: 12px;
+  color: dimgray;
+  margin: 8px 0 0 10px;
+}
+.linktext a {
+  color: dimgray;
+  text-decoration: none;
+}
+.linktext a:hover {
+  color: orange;
+}
+
+/* 页脚 */
+#foot {
+  clear: both;
+  margin: 20px 0 10px 0;
+  text-align: center;
+  color: #fff;
+  background: #ab9b83;
+  padding: 8px 0;
+}
+
+
+/* 页脚整体 */
+#foot {
+  clear: both;
+  margin: 20px auto 10px auto;
+  width: 728px;
+  text-align: center;
+  color: #fff;
+  background: #ab9b83;
+  padding: 20px;
+  border: 1px solid #999;
+  box-sizing: border-box;
+}
+
+/* 页脚内部模块 */
+#foot h3 {
+  color: #000;  /* 黑色 */
+  font-size: 16px;
+  margin: 15px 0 10px 0;
+}
+
+#foot #comments,
+#foot #contact {
+  background: #fafafa;
+  color: #222;
+  text-align: left;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+#foot input, 
+#foot textarea {
+  width: 100%;
+  max-width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+#foot button {
+  margin-top: 8px;
+  padding: 6px 12px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#foot button:hover {
+  background: #000;
+}
